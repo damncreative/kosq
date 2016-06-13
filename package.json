@@ -1,0 +1,34 @@
+{
+  "name": "kosq",
+  "version": "0.1.0",
+  "description": "koa sequelize application builder",
+  "preferGlobal": true,
+  "main": "lib/index.js",
+  "bin": {
+    "kosq": "bin/kosq"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naxmefy/kosq.git"
+  },
+  "keywords": [
+    "koa",
+    "sequelize",
+    "application",
+    "builder"
+  ],
+  "author": "MRW Neundorf [naxmefy] <m.neundorf@live.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naxmefy/kosq/issues"
+  },
+  "homepage": "https://github.com/naxmefy/kosq#readme",
+  "devDependencies": {
+    "mocha": "2.5.3",
+    "should": "9.0.2",
+    "supertest": "1.2.0"
+  }
+}
