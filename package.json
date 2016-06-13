@@ -8,7 +8,8 @@
     "kosq": "bin/kosq"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha test"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/naxmefy/kosq#readme",
   "devDependencies": {
+    "istanbul": "0.4.3",
     "mocha": "2.5.3",
     "should": "9.0.2",
     "supertest": "1.2.0"
