@@ -1,0 +1,7 @@
+--ui bdd
+--reporter list
+--recursive
+--compilers coffee:coffee-script/register
+--colors
+--timeout 5000
+--require should
