@@ -33,5 +33,7 @@
     "should": "9.0.2",
     "supertest": "1.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "coffee-script": "1.10.0"
+  }
 }
