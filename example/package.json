@@ -1,5 +1,9 @@
 {
     "private": true,
+    "scripts": {
+      "start": "node index.js",
+      "test": "mocha test"
+    },
     "dependencies": {
         
     },

@@ -35,7 +35,3 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
-
-# Editors
-.c9
-.idea
